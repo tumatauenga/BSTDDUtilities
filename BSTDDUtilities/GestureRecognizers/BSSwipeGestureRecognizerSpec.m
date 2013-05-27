@@ -13,7 +13,7 @@
 SPEC_BEGIN(BSSwipeGestureRecognizerSpec)
 
 describe(@"BSSwipeGestureRecognizer", ^{
-	context(@"inspecting the target / action of a swipe gesture recognizer.", ^{
+    context(@"inspecting the target / action of a swipe gesture recognizer.", ^{
         __block BSSwipeGestureRecognizer *sut;
         __block id target;
         __block SEL action;
