@@ -19,13 +19,13 @@ Pod::Spec.new do |s|
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
   # 'LICENCE*.*' or 'LICENSE*.*', however if the name is different, specify it.
-  s.license      = 'MIT (example)'
+  # s.license      = 'MIT (example)'
   # s.license      = { :type => 'MIT (example)', :file => 'FILE_LICENSE' }
 
   # Specify the authors of the library, with email addresses. You can often find
   # the email addresses of the authors by using the SCM log. E.g. $ git log
   #
-  s.author       = { "tumatauenga" => "email@address.com" }
+  s.author       = { "Ben Smith" => "bensmith125@hotmail.com" }
   # s.authors      = { "tumatauenga" => "email@address.com", "other author" => "and email address" }
   #
   # If absolutely no email addresses are available, then you can use this form instead.
