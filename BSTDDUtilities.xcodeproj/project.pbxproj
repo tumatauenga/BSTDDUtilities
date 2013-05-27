@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488DDD8C1753033500437966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488DDD8B1753033500437966 /* UIKit.framework */; };
+		488DDD8E1753033500437966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488DDD8D1753033500437966 /* Foundation.framework */; };
+		488DDD901753033500437966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488DDD8F1753033500437966 /* CoreGraphics.framework */; };
+		488DDD981753033500437966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDD971753033500437966 /* main.m */; };
+		488DDD9C1753033500437966 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDD9B1753033500437966 /* BSAppDelegate.m */; };
+		488DDDAA1753033500437966 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488DDDA91753033500437966 /* SenTestingKit.framework */; };
+		488DDDAB1753033500437966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488DDD8B1753033500437966 /* UIKit.framework */; };
+		488DDDAC1753033500437966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488DDD8D1753033500437966 /* Foundation.framework */; };
+		488DDDB41753033500437966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 488DDDB21753033500437966 /* InfoPlist.strings */; };
+		488DDDC51753053C00437966 /* BSSwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDDC41753053C00437966 /* BSSwipeGestureRecognizer.m */; };
+		488DDDC81753059C00437966 /* BSSwipeGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */; };
+		89D746B7CAD14190A5DCD478 /* libPods-BSTDDUtilitiesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488DDDAD1753033500437966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488DDD801753033500437966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488DDD871753033500437966;
+			remoteInfo = BSTDDUtilities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B08CC3E8BBD4D7482572184 /* Pods-BSTDDUtilitiesTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSTDDUtilitiesTests.xcconfig"; path = "Pods/Pods-BSTDDUtilitiesTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		488DDD881753033500437966 /* BSTDDUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSTDDUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488DDD8B1753033500437966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		488DDD8D1753033500437966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		488DDD8F1753033500437966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		488DDD931753033500437966 /* BSTDDUtilities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSTDDUtilities-Info.plist"; sourceTree = "<group>"; };
+		488DDD971753033500437966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		488DDD9A1753033500437966 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		488DDD9B1753033500437966 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		488DDDA81753033500437966 /* BSTDDUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSTDDUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488DDDA91753033500437966 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		488DDDB11753033500437966 /* BSTDDUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSTDDUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
+		488DDDB31753033500437966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		488DDDC31753053C00437966 /* BSSwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		488DDDC41753053C00437966 /* BSSwipeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSwipeGestureRecognizer.m; sourceTree = "<group>"; };
+		488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSwipeGestureRecognizerSpec.m; sourceTree = "<group>"; };
+		8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSTDDUtilitiesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488DDD851753033500437966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DDD8C1753033500437966 /* UIKit.framework in Frameworks */,
+				488DDD8E1753033500437966 /* Foundation.framework in Frameworks */,
+				488DDD901753033500437966 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488DDDA41753033500437966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DDDAA1753033500437966 /* SenTestingKit.framework in Frameworks */,
+				488DDDAB1753033500437966 /* UIKit.framework in Frameworks */,
+				488DDDAC1753033500437966 /* Foundation.framework in Frameworks */,
+				89D746B7CAD14190A5DCD478 /* libPods-BSTDDUtilitiesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488DDD7F1753033500437966 = {
+			isa = PBXGroup;
+			children = (
+				488DDD911753033500437966 /* BSTDDUtilities */,
+				488DDDAF1753033500437966 /* BSTDDUtilitiesTests */,
+				488DDD8A1753033500437966 /* Frameworks */,
+				488DDD891753033500437966 /* Products */,
+				1B08CC3E8BBD4D7482572184 /* Pods-BSTDDUtilitiesTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		488DDD891753033500437966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488DDD881753033500437966 /* BSTDDUtilities.app */,
+				488DDDA81753033500437966 /* BSTDDUtilitiesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488DDD8A1753033500437966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				488DDD8B1753033500437966 /* UIKit.framework */,
+				488DDD8D1753033500437966 /* Foundation.framework */,
+				488DDD8F1753033500437966 /* CoreGraphics.framework */,
+				488DDDA91753033500437966 /* SenTestingKit.framework */,
+				8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488DDD911753033500437966 /* BSTDDUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				488DDDC0175304B400437966 /* GestureRecognizers */,
+				488DDD9A1753033500437966 /* BSAppDelegate.h */,
+				488DDD9B1753033500437966 /* BSAppDelegate.m */,
+				488DDD921753033500437966 /* Supporting Files */,
+			);
+			path = BSTDDUtilities;
+			sourceTree = "<group>";
+		};
+		488DDD921753033500437966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				488DDD931753033500437966 /* BSTDDUtilities-Info.plist */,
+				488DDD971753033500437966 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		488DDDAF1753033500437966 /* BSTDDUtilitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				488DDDB01753033500437966 /* Supporting Files */,
+			);
+			path = BSTDDUtilitiesTests;
+			sourceTree = "<group>";
+		};
+		488DDDB01753033500437966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				488DDDB11753033500437966 /* BSTDDUtilitiesTests-Info.plist */,
+				488DDDB21753033500437966 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		488DDDC0175304B400437966 /* GestureRecognizers */ = {
+			isa = PBXGroup;
+			children = (
+				488DDDC31753053C00437966 /* BSSwipeGestureRecognizer.h */,
+				488DDDC41753053C00437966 /* BSSwipeGestureRecognizer.m */,
+				488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */,
+			);
+			path = GestureRecognizers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488DDD871753033500437966 /* BSTDDUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488DDDBA1753033500437966 /* Build configuration list for PBXNativeTarget "BSTDDUtilities" */;
+			buildPhases = (
+				488DDD841753033500437966 /* Sources */,
+				488DDD851753033500437966 /* Frameworks */,
+				488DDD861753033500437966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSTDDUtilities;
+			productName = BSTDDUtilities;
+			productReference = 488DDD881753033500437966 /* BSTDDUtilities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488DDDA71753033500437966 /* BSTDDUtilitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488DDDBD1753033500437966 /* Build configuration list for PBXNativeTarget "BSTDDUtilitiesTests" */;
+			buildPhases = (
+				52B928777BB24719A3669F0D /* Check Pods Manifest.lock */,
+				488DDDA31753033500437966 /* Sources */,
+				488DDDA41753033500437966 /* Frameworks */,
+				488DDDA51753033500437966 /* Resources */,
+				488DDDA61753033500437966 /* ShellScript */,
+				48534E5F1EE94DEFAD436791 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488DDDAE1753033500437966 /* PBXTargetDependency */,
+			);
+			name = BSTDDUtilitiesTests;
+			productName = BSTDDUtilitiesTests;
+			productReference = 488DDDA81753033500437966 /* BSTDDUtilitiesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488DDD801753033500437966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ben Smith";
+			};
+			buildConfigurationList = 488DDD831753033500437966 /* Build configuration list for PBXProject "BSTDDUtilities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 488DDD7F1753033500437966;
+			productRefGroup = 488DDD891753033500437966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488DDD871753033500437966 /* BSTDDUtilities */,
+				488DDDA71753033500437966 /* BSTDDUtilitiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488DDD861753033500437966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488DDDA51753033500437966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DDDB41753033500437966 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48534E5F1EE94DEFAD436791 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-BSTDDUtilitiesTests-resources.sh\"\n";
+		};
+		488DDDA61753033500437966 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		52B928777BB24719A3669F0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488DDD841753033500437966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DDD981753033500437966 /* main.m in Sources */,
+				488DDD9C1753033500437966 /* BSAppDelegate.m in Sources */,
+				488DDDC51753053C00437966 /* BSSwipeGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488DDDA31753033500437966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DDDC81753059C00437966 /* BSSwipeGestureRecognizerSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488DDDAE1753033500437966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488DDD871753033500437966 /* BSTDDUtilities */;
+			targetProxy = 488DDDAD1753033500437966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488DDDB21753033500437966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488DDDB31753033500437966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488DDDB81753033500437966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488DDDB91753033500437966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488DDDBB1753033500437966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "BSTDDUtilities/BSTDDUtilities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		488DDDBC1753033500437966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "BSTDDUtilities/BSTDDUtilities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		488DDDBE1753033500437966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B08CC3E8BBD4D7482572184 /* Pods-BSTDDUtilitiesTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSTDDUtilities.app/BSTDDUtilities";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "BSTDDUtilitiesTests/BSTDDUtilitiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		488DDDBF1753033500437966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B08CC3E8BBD4D7482572184 /* Pods-BSTDDUtilitiesTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSTDDUtilities.app/BSTDDUtilities";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "BSTDDUtilitiesTests/BSTDDUtilitiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488DDD831753033500437966 /* Build configuration list for PBXProject "BSTDDUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488DDDB81753033500437966 /* Debug */,
+				488DDDB91753033500437966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488DDDBA1753033500437966 /* Build configuration list for PBXNativeTarget "BSTDDUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488DDDBB1753033500437966 /* Debug */,
+				488DDDBC1753033500437966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488DDDBD1753033500437966 /* Build configuration list for PBXNativeTarget "BSTDDUtilitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488DDDBE1753033500437966 /* Debug */,
+				488DDDBF1753033500437966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488DDD801753033500437966 /* Project object */;
+}
