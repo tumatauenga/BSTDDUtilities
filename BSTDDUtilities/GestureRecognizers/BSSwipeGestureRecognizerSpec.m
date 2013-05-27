@@ -13,7 +13,7 @@
 SPEC_BEGIN(BSSwipeGestureRecognizerSpec)
 
 describe(@"BSSwipeGestureRecognizer", ^{
-	context(@"inspecting the targe / action of a swipe gesture recognizer.", ^{
+	context(@"inspecting the target / action of a swipe gesture recognizer.", ^{
         __block BSSwipeGestureRecognizer *sut;
         __block id target;
         __block SEL action;
@@ -34,7 +34,7 @@ describe(@"BSSwipeGestureRecognizer", ^{
             [[sut.target should] equal:target];
         });
         
-        it(@"should have an action attribute that corresponds with the target that was sent with initWithTarget:action:", ^{
+        it(@"should have an action attribute that corresponds with the acton that was sent with initWithTarget:action:", ^{
             [[theValue(sut.action) should] equal:theValue(action)];
         });
     });
