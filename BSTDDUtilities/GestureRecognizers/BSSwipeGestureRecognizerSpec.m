@@ -26,6 +26,7 @@ describe(@"BSSwipeGestureRecognizer", ^{
         });
         
         afterEach(^{
+            sut = nil;
             target = nil;
             action = nil;
         });
