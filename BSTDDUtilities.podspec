@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/tumatauenga/BSTDDUtilities"
   s.license      = { :type => 'MIT', :file => 'License.txt' }
   s.author       = { "Ben Smith" => "bensmith125@hotmail.com" }
-  s.source       = { :git => "https://github.com/tumatauenga/BSTDDUtilities.git", :commit => "9ec2eac3339a7c33feb0689233e6bf85ab6ef299" }
+  s.source       = { :git => "https://github.com/tumatauenga/BSTDDUtilities.git", :tag => "0.0.1" }
   s.platform     = :ios, '3.2'
   s.source_files = 'BSTDDUtilities/GestureRecognizers/BSSwipeGestureRecognizer.{h,m}'
   s.requires_arc = true
