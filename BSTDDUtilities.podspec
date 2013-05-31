@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Ben Smith" => "bensmith125@hotmail.com" }
   s.source       = { :git => "https://github.com/tumatauenga/BSTDDUtilities.git", :tag => "0.0.1" }
   s.platform     = :ios, '3.2'
-  s.source_files = 'BSTDDUtilities/GestureRecognizers/BSSwipeGestureRecognizer.{h,m}'
+  s.source_files = 'BSTDDUtilities'
+  s.exclude_files = '**/*Spec.m'
   s.requires_arc = true
 end
