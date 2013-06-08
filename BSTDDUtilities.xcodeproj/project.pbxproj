@@ -18,6 +18,8 @@
 		488DDDB41753033500437966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 488DDDB21753033500437966 /* InfoPlist.strings */; };
 		488DDDC51753053C00437966 /* BSSwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDDC41753053C00437966 /* BSSwipeGestureRecognizer.m */; };
 		488DDDC81753059C00437966 /* BSSwipeGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */; };
+		48C13CA81763A9C1002E2CC2 /* BSTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C13CA71763A9C1002E2CC2 /* BSTapGestureRecognizer.m */; };
+		48C13CAB1763A9DD002E2CC2 /* BSTapGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C13CA91763A9D8002E2CC2 /* BSTapGestureRecognizerSpec.m */; };
 		89D746B7CAD14190A5DCD478 /* libPods-BSTDDUtilitiesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,10 @@
 		488DDDC31753053C00437966 /* BSSwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSwipeGestureRecognizer.h; sourceTree = "<group>"; };
 		488DDDC41753053C00437966 /* BSSwipeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSwipeGestureRecognizer.m; sourceTree = "<group>"; };
 		488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSwipeGestureRecognizerSpec.m; sourceTree = "<group>"; };
+		48C13CA61763A9C1002E2CC2 /* BSTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTapGestureRecognizer.h; sourceTree = "<group>"; };
+		48C13CA71763A9C1002E2CC2 /* BSTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTapGestureRecognizer.m; sourceTree = "<group>"; };
+		48C13CA91763A9D8002E2CC2 /* BSTapGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTapGestureRecognizerSpec.m; sourceTree = "<group>"; };
+		48C13CAC1763AA71002E2CC2 /* BSTDDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTDDUtilities.h; sourceTree = "<group>"; };
 		8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSTDDUtilitiesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,10 +117,11 @@
 		488DDD911753033500437966 /* BSTDDUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				488DDD921753033500437966 /* Supporting Files */,
 				488DDDC0175304B400437966 /* GestureRecognizers */,
 				488DDD9A1753033500437966 /* BSAppDelegate.h */,
 				488DDD9B1753033500437966 /* BSAppDelegate.m */,
-				488DDD921753033500437966 /* Supporting Files */,
+				48C13CAC1763AA71002E2CC2 /* BSTDDUtilities.h */,
 			);
 			path = BSTDDUtilities;
 			sourceTree = "<group>";
@@ -151,6 +158,9 @@
 				488DDDC31753053C00437966 /* BSSwipeGestureRecognizer.h */,
 				488DDDC41753053C00437966 /* BSSwipeGestureRecognizer.m */,
 				488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */,
+				48C13CA61763A9C1002E2CC2 /* BSTapGestureRecognizer.h */,
+				48C13CA71763A9C1002E2CC2 /* BSTapGestureRecognizer.m */,
+				48C13CA91763A9D8002E2CC2 /* BSTapGestureRecognizerSpec.m */,
 			);
 			path = GestureRecognizers;
 			sourceTree = "<group>";
@@ -294,6 +304,7 @@
 				488DDD981753033500437966 /* main.m in Sources */,
 				488DDD9C1753033500437966 /* BSAppDelegate.m in Sources */,
 				488DDDC51753053C00437966 /* BSSwipeGestureRecognizer.m in Sources */,
+				48C13CA81763A9C1002E2CC2 /* BSTapGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				488DDDC81753059C00437966 /* BSSwipeGestureRecognizerSpec.m in Sources */,
+				48C13CAB1763A9DD002E2CC2 /* BSTapGestureRecognizerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
