@@ -20,6 +20,8 @@
 		488DDDC81753059C00437966 /* BSSwipeGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 488DDDC61753059400437966 /* BSSwipeGestureRecognizerSpec.m */; };
 		48C13CA81763A9C1002E2CC2 /* BSTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C13CA71763A9C1002E2CC2 /* BSTapGestureRecognizer.m */; };
 		48C13CAB1763A9DD002E2CC2 /* BSTapGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C13CA91763A9D8002E2CC2 /* BSTapGestureRecognizerSpec.m */; };
+		48F7D88B1798C93000889367 /* BSPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F7D88A1798C93000889367 /* BSPanGestureRecognizer.m */; };
+		48F7D88D1798C94700889367 /* BSPanGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F7D88C1798C94700889367 /* BSPanGestureRecognizerSpec.m */; };
 		89D746B7CAD14190A5DCD478 /* libPods-BSTDDUtilitiesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		48C13CA71763A9C1002E2CC2 /* BSTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTapGestureRecognizer.m; sourceTree = "<group>"; };
 		48C13CA91763A9D8002E2CC2 /* BSTapGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTapGestureRecognizerSpec.m; sourceTree = "<group>"; };
 		48C13CAC1763AA71002E2CC2 /* BSTDDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTDDUtilities.h; sourceTree = "<group>"; };
+		48F7D8891798C93000889367 /* BSPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPanGestureRecognizer.h; sourceTree = "<group>"; };
+		48F7D88A1798C93000889367 /* BSPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPanGestureRecognizer.m; sourceTree = "<group>"; };
+		48F7D88C1798C94700889367 /* BSPanGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPanGestureRecognizerSpec.m; sourceTree = "<group>"; };
 		8C9DA83816864DD6BAB09C89 /* libPods-BSTDDUtilitiesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSTDDUtilitiesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -161,6 +166,9 @@
 				48C13CA61763A9C1002E2CC2 /* BSTapGestureRecognizer.h */,
 				48C13CA71763A9C1002E2CC2 /* BSTapGestureRecognizer.m */,
 				48C13CA91763A9D8002E2CC2 /* BSTapGestureRecognizerSpec.m */,
+				48F7D8891798C93000889367 /* BSPanGestureRecognizer.h */,
+				48F7D88A1798C93000889367 /* BSPanGestureRecognizer.m */,
+				48F7D88C1798C94700889367 /* BSPanGestureRecognizerSpec.m */,
 			);
 			path = GestureRecognizers;
 			sourceTree = "<group>";
@@ -305,6 +313,7 @@
 				488DDD9C1753033500437966 /* BSAppDelegate.m in Sources */,
 				488DDDC51753053C00437966 /* BSSwipeGestureRecognizer.m in Sources */,
 				48C13CA81763A9C1002E2CC2 /* BSTapGestureRecognizer.m in Sources */,
+				48F7D88B1798C93000889367 /* BSPanGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +323,7 @@
 			files = (
 				488DDDC81753059C00437966 /* BSSwipeGestureRecognizerSpec.m in Sources */,
 				48C13CAB1763A9DD002E2CC2 /* BSTapGestureRecognizerSpec.m in Sources */,
+				48F7D88D1798C94700889367 /* BSPanGestureRecognizerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

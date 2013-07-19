@@ -7,4 +7,5 @@
 //
 
 #import "BSTapGestureRecognizer.h"
+#import "BSPanGestureRecognizer.h"
 #import "BSSwipeGestureRecognizer.h"
